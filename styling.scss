@@ -1,23 +1,22 @@
 $border: rgb(76, 76, 76);
 $primary-color: rgb(190, 198, 252);
 $secondary-color: rgb(237, 238, 247);
+$tertiary-color: rgb(96, 72, 251);
 
 h2 {
-    text-align: center;
-    
+  text-align: center;
 }
 
 #myBtn {
-    cursor: pointer;
-    background-color: $primary-color;
-    border-radius: 5px;
-    height: 50px;
-    width: 70px;
-    
-
+  cursor: pointer;
+  background-color: $primary-color;
+  border-radius: 5px;
+  height: 50px;
+  width: 70px;
 }
 
 .header {
+  color: $tertiary-color;
   border: solid 4px $border;
   background-color: $primary-color;
   border-radius: 5px;
@@ -41,7 +40,7 @@ h2 {
   margin-right: auto;
 }
 .column {
-  border: solid 4px  $border;
+  border: solid 4px $border;
   background-color: $secondary-color;
   width: 450px;
   height: 300px;
@@ -52,6 +51,5 @@ h2 {
   text-align: center;
 }
 
-.footer{
-
+.footer {
 }
